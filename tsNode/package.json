@@ -1,0 +1,43 @@
+{
+  "name": "ukey",
+  "version": "1.0.0",
+  "description": "ukey",
+  "main": "index.js",
+  "scripts": {
+    "dev": "SET NODE_ENV=development && nodemon ./bin/www",
+    "grunt": "grunt",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonstantinVsn/UkeyTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KonstantinVsn/UkeyTest/issues"
+  },
+  "homepage": "https://github.com/KonstantinVsn/UkeyTest#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "method-override": "^2.3.10",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.1",
+    "@types/errorhandler": "0.0.32",
+    "@types/express": "^4.16.0",
+    "@types/method-override": "0.0.31",
+    "@types/morgan": "^1.7.35",
+    "grunt": "^1.0.3",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-ts": "^6.0.0-beta.19",
+    "nodemon": "^1.17.5",
+    "typescript": "^2.9.2"
+  }
+}
